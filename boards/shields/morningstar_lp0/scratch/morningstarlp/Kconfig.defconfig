@@ -1,0 +1,6 @@
+if SHIELD_MORNINGSTARLP
+
+config ZMK_KEYBOARD_NAME
+    default "Morningstar LP"
+
+endif
