@@ -13,8 +13,8 @@
             bindings = <
                 &kp TAB   &kp Q     &kp W     &kp F     &kp P     &kp B     &kp J     &kp L     &kp U     &kp Y     &kp SEMI  &kp BSPC 
                 &kp LCTRL &kp A     &kp R     &kp S     &kp T     &kp G     &kp M     &kp N     &kp E     &kp I     &kp O     &kp APOS
-                &kp LSHFT &kp Z     &kp X     &kp C     &kp D     &kp V     &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH  &kp BSLH 
-                          &kp LCTRL &kp LGUI  &kp LALT  &lt 1 RET           &lt 1 SPACE         &kp MINUS &kp EQUAL &kp GRAVE
+                &kp LSHFT &kp Z     &kp X     &kp C     &kp D     &kp V     &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH  &kp GRAVE
+                          &kp CAPS  &kp LGUI  &kp LALT  &lt 1 RET           &lt 1 SPACE         &kp MINUS &kp EQUAL &kp BSLH
             >;
         };
 
@@ -23,7 +23,7 @@
             bindings = <
                 &kp ESC   &kp N1      &kp N2   &kp N3     &kp N4       &kp N5    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0  &trans
                 &trans    &kp C_PREV  &kp C_PP &kp C_NEXT &kp C_VOL_UP &trans    &trans    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans
-                &trans    &trans      &trans   &trans     &trans       &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans      &trans   &trans     &kp C_VOL_DN &trans    &trans    &trans    &trans    &trans    &trans    &trans
                           &trans      &trans   &trans     &trans                 &mo 2               &kp LBKT  &kp RBKT  &kp BSLH      
            >;
         };
@@ -44,6 +44,4 @@
 // |   TAB   |    Q    |    W    |    F    |    P    |    B    |    J    |    L    |    U    |    Y    |   SEMI  |   BSPC   |
 // |  LCTRL  |    A    |    R    |    S    |    T    |    G    |    M    |    N    |    E    |    I    |    O    |   APOS   |
 // |  LSHFT  |    Z    |    X    |    C    |    D    |    V    |    K    |    H    |  COMMA  |   DOT   |   FSLH  |   GRAVE  |
-// |         |  LCTRL  |  LGUI   |   LALT  |  1/RET  |         | 1/SPACE |         |  MINUS  |  EQUAL  |   BSLH  |   
-
-// NO YES YES YES YES NO | YES NO YES YES YES NO
+// |         |  CAPS   |  LGUI   |   LALT  |  1/RET  |         | 1/SPACE |         |  MINUS  |  EQUAL  |   BSLH  |   
