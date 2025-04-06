@@ -1,6 +1,0 @@
-if SHIELD_MSLP0
-
-config ZMK_KEYBOARD_NAME
-    default "mslp0"
-
-endif # SHIELD_MSLP0
