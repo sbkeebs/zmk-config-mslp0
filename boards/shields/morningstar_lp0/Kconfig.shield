@@ -1,2 +1,0 @@
-config SHIELD_MORNINGSTAR_LP0
-    def_bool $(shields_list_contains,morningstar_lp0)

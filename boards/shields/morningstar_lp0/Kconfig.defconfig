@@ -1,6 +1,0 @@
-if SHIELD_MORNINGSTAR_LP0
-
-config ZMK_KEYBOARD_NAME
-    default "morningstar_lp0"
-
-endif # SHIELD_MORNINGSTAR_LP0
