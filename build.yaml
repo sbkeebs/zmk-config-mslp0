@@ -23,4 +23,6 @@
 include:
   - board: nice_nano_v2
     shield: mslp0
+  - board: nice_nano_v2
+    shield: settings_reset
     
